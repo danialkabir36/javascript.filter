@@ -1,0 +1,48 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+}
+
+.filtercontainer{
+    width: 280px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.filtercontainer input {
+    all: unset;
+    border: 1px solid gray;
+    border-radius: 10px ;
+    padding: 5px;
+}
+.filtercontainer button {
+    all: unset;
+    width: 50px;
+    text-align: center;
+    border: 1 px solid grey;
+    border-radius: 5px ;
+    padding: 5px;
+    cursor: pointer;
+    background-color:rgb(40 , 228 , 103);
+}
+.usercontainer{
+    width: 280px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.userItem{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px , rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
